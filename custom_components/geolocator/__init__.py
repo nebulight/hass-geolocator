@@ -11,6 +11,7 @@ from .api.google import GoogleMapsAPI
 from .api.opencage import OpenCageAPI
 from .api.geonames import GeoNamesAPI
 from .api.bigdatacloud import BigDataCloudAPI
+from .locationiq import LocationIQAPI
 
 from timezonefinder import TimezoneFinder
 
