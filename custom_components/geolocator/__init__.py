@@ -53,6 +53,8 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         api = GoogleMapsAPI(api_key)
     elif provider == "opencage":
         api = OpenCageAPI(api_key)
+    elif provider == "locationiq":
+        api = LocationIQAPI(api_key)
     elif provider == "geonames":
         api = GeoNamesAPI(api_key)
     elif provider == "bigdatacloud":
